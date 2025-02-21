@@ -1,5 +1,5 @@
 import { Image, StyleSheet, Platform, View } from 'react-native';
-
+import Select from '@/components/Select';
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
 import { ThemedText } from '@/components/ThemedText';
@@ -8,13 +8,7 @@ import Componente, {Cabecalho, Corpo, Rodape} from '@/components/TelaUm';
 
 export default function HomeScreen() {
   return (
-    <View>
-
-<Cabecalho/>
-<Corpo/>
-<Rodape/>
-
-    </View>
+    <Select/>
   );
 }
 

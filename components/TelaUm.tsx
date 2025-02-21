@@ -1,4 +1,4 @@
-import { Text, View, Button, TextInput } from 'react-native';
+import { Text, View, Button, TextInput, StyleSheet } from 'react-native';
 
 export default function TelaUm(){
     return (
@@ -45,7 +45,7 @@ export function Corpo(){
         padding: 5
     }}/>
 
-    <Button title='Entrar' style={{}}></Button>
+    <Button title='Entrar' ></Button>
 
     </View>
 )
